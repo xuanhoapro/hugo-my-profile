@@ -1,0 +1,58 @@
+baseURL = "https://xuanhoapro.github.io/"
+languageCode = "en-us"
+title = "Hoa Nguyen Profile - User experience Full-stack developer"
+theme = "resume"
+
+[params]
+    firstName = "Hoa"
+    lastName = "Nguyen"
+    address = "Viet Nam, Ha Noi"
+    phone = "+84985050225"
+    contactNote = "Full-stack developer" #used in QR code only
+    profileImage = "img/me.jpg" #"https://d1fxcn9lyqh88z.cloudfront.net/uploads/images/avatar/me.jpg"
+    email = "xuanhoapro@gmail.com"
+    description = "This is me"
+    favicon = "favicon.ico"
+
+    # what sections to display.  Setting to false disables navigation and section.
+    showSkills = true
+    showProjects = false
+    showOpenSource = false
+    showPublications = false
+    showExperience = true
+    showEducation = true
+    showQr = true
+
+    # do you want to show git hash on page footer and link to repo? Add commit URl for repo here.
+    gitCommitPrefix = "https://github.com/xuanhoapro/"
+
+
+[[params.handles]]
+    name = "LinkedIn"
+    link = "https://www.linkedin.com/in/hoanguyen007/"
+
+[[params.handles]]
+    name = "GitHub"
+    link = "https://github.com/xuanhoapro/"
+
+[[params.handles]]
+    name = "Bitbucket"
+    link = "https://bitbucket.org/xuanhoapro/"
+
+[[params.handles]]
+    name = "Facebook"
+    link = "https://facebook.com/xuanhoapro/"
+
+[[params.handles]]
+    name = "Twitter"
+    link = "https://twitter.com/0985050225"
+
+[[params.handles]]
+    name = "Skype"
+    link = "skype:xuanhoapro?userinfo"
+
+[params.google.analytics]
+    trackerID = "UA-116857527-1"
+
+[outputs] #only required for search
+    home = ["HTML", "JSON"]

@@ -1,0 +1,24 @@
+[
+  {
+      "grouping":"Architecture",
+      "skills":[ "IP Networking","DNS","Load Balancing","RESTful APIs"]
+  },{
+      "grouping":"Languages, Operating Systems & Tools",
+      "skills":[ "PHP","NodeJS","ES6", "Html5","CSS3","SASS","Yeoman","javascript","Git","Subversion","Linux","macOS","Windows","Bash","PhpStorm"]
+  },
+  {
+      "grouping":"Platform Development & Administration",
+      "skills":[ "Magento","Wordpress","Laravel","Yii","ExpressJS","Nginx","Apache","MySQL","MongoDB","Jenkins","CircleCI","Github","Bitbucket"]
+  },
+  {
+    "grouping":"Containers & Cloud",
+      "skills":[
+          {"name":"Docker","link":"https://docker.com"},
+          {"name":"AWS","link":"https://aws.amazon.com"},
+          {"name":"GMO","link":"https://cloud.gmo.jp/en/"},
+          {"name":"Digital Ocean","link":"https://www.digitalocean.com/"},
+          {"name":"Google Cloud","link":"https://cloud.google.com"},
+          {"name":"Linux","link":"https://bosh.io"}
+      ]
+  }
+]
